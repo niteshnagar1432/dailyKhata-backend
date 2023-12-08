@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
-// const MONGODB_URI = `${process.env.MONGO_DB}dailyKhata`;
+const MONGODB_URI = `${process.env.MONGO_DB}`;
 
-mongoose.connect(process.env.MONGO_DB, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-});
-// mongoose.connect(MONGODB_URI);a
+// mongoose.connect(process.env.MONGO_DB, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useCreateIndex: true,
+// });
+mongoose.connect(MONGODB_URI);
 
