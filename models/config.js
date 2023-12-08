@@ -7,5 +7,5 @@ mongoose.connect(process.env.MONGO_DB, {
   useUnifiedTopology: true,
   useCreateIndex: true,
 });
-mongoose.connect(MONGODB_URI);
+// mongoose.connect(MONGODB_URI);a
 
